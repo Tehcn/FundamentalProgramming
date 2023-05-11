@@ -1,0 +1,25 @@
+{
+  "name": "fundamentalprogramming",
+  "version": "1.0.0",
+  "description": "Every new repl comes with a `.replit` and a `replit.nix` file that let you configure your repl to do just about anything in any language!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "Noah Perry",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.2",
+    "@types/react": "18.2.6",
+    "sass": "^1.62.1",
+    "typescript": "5.0.4"
+  }
+}
